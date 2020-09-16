@@ -4,8 +4,8 @@ class Titles extends React.Component {
     render() {
         return(
             <div>
-                <h1>How's the weather?</h1>
-                <p>I dunno, let's find out!</p>
+                <h1 className="title-container__title">How's the weather?</h1>
+                <h3 className="title-container__subtitle">I dunno, let's find out!</h3>
             </div>
         );
     }
